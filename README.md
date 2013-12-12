@@ -10,12 +10,12 @@ Deploy via Capistrano (2.x.x) with Deep Thought.
 
 In your Deep Thought's `config.ru`:
 
-   require "deep_thought"
-   require "deep_thought-capistrano_2"
+    require "deep_thought"
+    require "deep_thought-capistrano_2"
 
-   DeepThought.setup(ENV)
+    DeepThought.setup(ENV)
 
-   run DeepThought.app
+    run DeepThought.app
 
 ## .deepthought.yml it
 
